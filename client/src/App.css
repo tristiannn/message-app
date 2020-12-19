@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  }
+
+.input-group{
+    margin-top:10px ;
+  }
+
+.btn{
+  color: #282c34;
+}
+
+.btn-primary{
+  color: white;
+  margin-top: -90px;
+  margin-left: 230px;
+}
+
+.container{
+  width: 350px;
+}
+
+
+.testimonial {
+  border: 2px solid #ccc;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.testimonial::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.testimonial p{
+  font-size: 20px;
+  margin-right: 15px;
+  float: left;
+  margin-right: 20px;
+  color:#282c34;
+}
+
+.testimonial h3{
+  float: right;
+  font-size: medium;
+  color: #282c34;
+}
+
